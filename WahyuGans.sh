@@ -16,12 +16,13 @@ echo "Selamat Datang Di Tools WahyuGans"
 slep 2
 clear
 toilet -f future -F gay WahyuGans
-echo $yellow "______________________________________________________"
-echo $cyan "Author : WahyuGans"
+echo $yellow "_____________________________________________________"
+echo $cyan "Author : N0L3P T3R54K1T1"
 echo $purple "Thanks To : Mine7"
 echo $cyan "Facebook : Wahyu Candra Pratama"
-echo $green "WhatsApp : 085341977435"
-echo $yellow "______________________________________________________"
+echo $green "WhatsApp : 082282130708"
+echo $green "Instagram : Wahyoe14_"
+echo $yellow "_____________________________________________________"
 echo $purple "
               .+eWWW             
           .+ee+++eee      e.     
@@ -58,6 +59,8 @@ echo $green "============================"
 echo $yellow "7.Putar Musik YT Di Termux"
 echo $indigo "============================"
 echo $purple "8.Spam Chat Wa"
+echo $green "============================"
+echo $yellow "9.Tools Redhawk"
 echo $blue "============================"
 echo $white "0.Keluar/Exit"
 echo $yellow "============================"
@@ -69,7 +72,7 @@ if [ $JEMBOOT = "0" ] || [ $JEMBOOT = "00" ]
 then
 echo $purple
 figlet "KELUAR"
-echo $white "Makasih Dah Pake Tools Ini Cok Aku Bakal Merindukan Mu"
+echo $white "Terimakasih,Aku Akan Merindukan Mu"
 fi
 
 if [ $JEMBOOT = "01" ] || [ $JEMBOOT = "1" ]
@@ -80,7 +83,6 @@ pkg install python2
 git clone https://github.com/valdot/CloneYahoo
 cd CloneYahoo
 python2 Clone.py
-clear
 fi
 
 if [ $JEMBOOT = "02" ] || [ $JEMBOOT = "2" ]
@@ -152,4 +154,17 @@ pkg install php
 git clone https://github.com/siputra12/prank
 cd prank
 php wa.php
+fi
+
+if [ $JEMBOT = "09" ] || [ $JEMBOOT = "9" ]
+then
+apt update
+apt upgrade
+apt install git
+apt install php
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+ls
+cd RED_HAWK
+ls
+php rhawk.php
 fi
